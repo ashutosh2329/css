@@ -1,0 +1,36 @@
+.first{
+	background-color: #e7dfd5;
+	margin-left: 0px;
+	
+}
+.second{
+	background-color: #84a9ac;
+	margin-left: 0px;
+	height: 500px
+
+}
+.third{
+	background-color: #3b6978;
+	margin-left: 0px;
+	height: 500px
+
+}
+.fourth{
+	background-color: #204051;
+	margin-left: 0px;
+	height: 500px
+
+}
+body{
+	margin: 0px;	
+}
+h1{
+	margin-top: 0px;
+	
+}
+h2{
+	margin-top: 0px;
+}
+p{
+	margin: 0px;
+}
