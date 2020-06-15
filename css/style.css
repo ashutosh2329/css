@@ -1,24 +1,25 @@
 .first{
-	background-color: #e7dfd5;
+	background-color: #eb6383;
 	margin-left: 0px;
+	padding: 20px;
 	
 }
 .second{
-	background-color: #84a9ac;
+	background-color: #fa9191;
 	margin-left: 0px;
-	height: 500px
+	height: 100px
 
 }
 .third{
-	background-color: #3b6978;
+	background-color: #ffe9c5;
 	margin-left: 0px;
-	height: 500px
+	height: 200px
 
 }
 .fourth{
-	background-color: #204051;
+	background-color: #b4f2e1;
 	margin-left: 0px;
-	height: 500px
+	height: 300px
 
 }
 body{
