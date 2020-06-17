@@ -1,17 +1,19 @@
 body{
 	margin: 0px;
 	text-align: center;	
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lobster', cursive;
 
 }
 h1{
 	margin-bottom:  20px;
+	
 }
 p{
 	margin: 0px;
 }
 h2{
 	margin: 0px;
+	font-family: 'Sriracha', cursive;
 }
 
 
@@ -20,6 +22,7 @@ h2{
 	position: relative;
 	top: 150px;
 	right: 50px;
+	font-family: 'Pinyon Script', cursive;
 }
 .first{
     margin:0 auto 0 auto;
