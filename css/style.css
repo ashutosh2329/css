@@ -5,7 +5,6 @@ body{
 }
 h1{
 	margin-bottom:  20px;
-	
 }
 p{
 	margin: 0px;
@@ -17,20 +16,20 @@ h2{
 
 
 .hellow{
-	display: inline-block;
-	position: absolute;
-	top: 100px;
-	right: 500px;
+	position: relative;
+	top: 150px;
+	right: 200px;
 }
 .first{
+	background-color: #e4f9f5; 
 	margin-left: 0px;
 	padding: 0px;
-	height: 900px;
+	height: 700px;
 	border: 0px;
 
 }
 	
-}
+
 .second{
 	background-color: pink;
 	margin-left: 0px;
@@ -53,15 +52,15 @@ h2{
     position: absolute;
 	width: 950px;
 	height: 400px;
-	bottom: 0px;
+	top: 300px;
 	right: 300px;
 
 }
 
 .cloud-right{
 	position: absolute;
-	top: 40px;
-	right: 40px;
+	top: 100px;
+	right: 70px;
 }
 
 
