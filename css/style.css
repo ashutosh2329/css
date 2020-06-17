@@ -1,10 +1,7 @@
 body{
 	margin: 0px;
 	text-align: center;	
-	background-image: linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef),linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef);
-    background-color: #fff;
-    background-position: 0 0,10px 10px;
-    background-size: 21px 21px;
+
 }
 h1{
 	margin-bottom:  20px;
@@ -19,15 +16,18 @@ h2{
 
 
 
+.hellow{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	right: 500px;
+}
 .first{
 	margin-left: 0px;
 	padding: 0px;
-	height: 600px;
+	height: 900px;
 	border: 0px;
-	background-image: linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef),linear-gradient(45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef);
-    background-color: #fff;
-    background-position: 0 0,10px 10px;
-    background-size: 21px 21px;
+
 }
 	
 }
@@ -50,27 +50,25 @@ h2{
 
 }
 .image{
-    position: relative;
+    position: absolute;
 	width: 950px;
 	height: 400px;
-	margin-top: 144px;
+	bottom: 0px;
+	right: 300px;
 
 }
 
-.hellow{
-	position: relative;
-	display: inline;
-    bottom: 340px;
-    left: 400px;
-    color: blue;
+.cloud-right{
+	position: absolute;
+	top: 40px;
+	right: 40px;
 }
-.computer{
-	background-color:  white;
-	position: relative;
-	bottom: 20px;
 
+
+
+.cloud-left{
+	position: absolute;
+	top: 200px;
+	left: 40px;
 }
-span{
-	 font-family: "Times New Roman", Times, serif;
-	font-style: italic;
-}
+
