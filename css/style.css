@@ -48,8 +48,6 @@ a{
 	
 }
 .cloud-right{
-	width: 18.75rem;
-	height: 6.25rem;
     position: absolute;
     right: 12.5rem;
     top: 50px; 
@@ -58,8 +56,6 @@ a{
 
 
 .cloud-left{
-	width: 18.75rem;
-	height: 6.25rem;
 	position: absolute;
 	top: 18.75rem;
 	left: 12.5rem;
