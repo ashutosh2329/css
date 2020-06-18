@@ -1,21 +1,24 @@
 body{
 	margin: 0;
 	text-align: center;	
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 h1{
-	font-size: 4.62rem;
+	font-size: 5.62rem;
 	margin: 50 auto 0 auto;
-	font-family: 'Sriracha', cursive;
+	font-family: 'Tangerine', cursive;
 	color: #66BFBF;
 }
 
 h2{
-	font-size: 2rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.2rem;
 	color: #66BFBF;
 }
-h3{
+h3{ 
+	font-size: 2rem;
+	font-family: 'Oleo Script', cursive;
 	color: #11999E;
 }
 a{
@@ -23,7 +26,7 @@ a{
 }
 
 .top-container{
-	background-color: #e4f9f5;
+	background-color: #EAF6F6;
 	position: relative; 
 	padding: 0;
 	padding-top: 6.25rem; 
@@ -88,4 +91,7 @@ a{
 }
 .profile-img{
 	width: 20%;
+}
+.pro-in{
+	text-decoration: underline;
 }
