@@ -41,12 +41,11 @@ a{
 
 
 
-.image{
+.mountain-img{
     position: absolute;
-	width: 59.375rem;
-	height: 25rem;
+    right: 30%;
 	bottom: 0;
-	right: 18.75rem;
+	
 }
 .cloud-right{
 	width: 18.75rem;
