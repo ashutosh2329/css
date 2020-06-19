@@ -111,25 +111,39 @@ span{
 	position: relative;
 }
 .left-img{
+	background-color: #e31c79;
+	width: 15%;
+	height: 15%;
 	position: relative;
 	display: inline;
 	right: 18%;
 	padding-top: 0;
 
 
+
 }   
 .right-img{
+	background-color:#e31c79;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
 	position: relative;
 	left: 18%;
 	padding-top: 0;
+	
 }
 .left2-img{
 	position: relative;
+	width: 15%;
+	height: 15%;
 	display: inline;
 	right: 25%;
 	padding-top:0;
+	border-radius: 50%;
 }
 .right2-img{
+	width: 15%;
+	height: 15%;
 	position: relative;
 	left: 22%;
 	padding-top:0;
