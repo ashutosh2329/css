@@ -1,0 +1,63 @@
+/*TAG DESIGN*/
+body{
+	background-color: #ffffff;
+	font-size: 1rem;
+}
+
+
+
+
+
+/*Class design*/
+
+.Top-container{
+	background-color: #ffffff;
+	text-align: center;
+}
+.middle-container{
+	background-color: #ffffff;
+}
+.hr-design{
+    width: 5%;
+    border-top: .5rem dotted;
+    color: #000000;
+}
+[data-letters]:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background-color:#000000;
+  vertical-align:middle;
+  margin-right:1rem;
+  margin-top: 1rem;
+  color:#e31c79;
+  }
+
+.navbar{
+	background-color: #e31c79;
+	font-size: 1.5rem;
+	color: #000000;
+}
+.navbar-brand{
+	color: #000000 !important;
+}
+.navbar-brand:hover{
+	color: #FFFFFF !important;
+}
+.nav-link{
+	color: #000000 !important;
+}
+.nav-link:hover{
+	color: #FFFFFF !important;
+}
+.dropdown-menu{
+	color: #000000 !important;
+}
+.dropdown-item{
+	color: #000000 !important;
+}
