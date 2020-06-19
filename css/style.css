@@ -47,9 +47,9 @@ span{
   content:attr(data-letters2);
   display:inline-block;
   font-size:1em;
-  width:2.5em;
-  height:2.5em;
-  line-height:2.5em;
+  width:2em;
+  height:2em;
+  line-height:2em;
   text-align:center;
   border-radius:50%;
   background-color:#000000;
@@ -63,7 +63,14 @@ span{
 	background-color: #e31c79;
 	font-size: 1.5rem;
 	color: #000000;
+	top: 0;
+	height: 10%;
 }
+.navbar-fixed-top {
+  top: 0;
+  
+}
+
 .navbar-brand{
 	color: #000000 !important;
 }
@@ -83,7 +90,7 @@ span{
 	color: #000000 !important;
 }
 .man-img{
-	width:7%;
+	width:5%;
 	position: absolute;
 	right: .4rem;
 	top: 0;
@@ -107,14 +114,14 @@ span{
 	position: relative;
 	display: inline;
 	right: 18%;
-	padding-top: 5%;
+	padding-top: 0;
 
 
 }   
 .right-img{
 	position: relative;
 	left: 18%;
-	padding-top: 5%;
+	padding-top: 0;
 }
 .left2-img{
 	position: relative;
@@ -133,7 +140,7 @@ span{
 	width: 15%;
 	font-family: 'Sacramento', cursive;
 	font-size: 2rem;
-	padding-top: 2%;
+	padding-top: 4%;
 	color: #e31c79;
 	
 }
