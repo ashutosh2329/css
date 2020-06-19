@@ -2,6 +2,11 @@
 body{
 	background-color: #ffffff;
 	font-size: 1rem;
+	color: #000000;
+	text-align: center;
+}
+span{
+	text-decoration: underline;
 }
 
 
@@ -13,6 +18,7 @@ body{
 .Top-container{
 	background-color: #ffffff;
 	text-align: center;
+	position: relative;
 }
 .middle-container{
 	background-color: #ffffff;
@@ -22,8 +28,8 @@ body{
     border-top: .5rem dotted;
     color: #000000;
 }
-[data-letters]:before {
-  content:attr(data-letters);
+[data-letters1]:before {
+  content:attr(data-letters1);
   display:inline-block;
   font-size:1em;
   width:2.5em;
@@ -35,7 +41,22 @@ body{
   vertical-align:middle;
   margin-right:1rem;
   margin-top: 1rem;
-  color:#e31c79;
+  color:#ffffff;
+  }
+[data-letters2]:before {
+  content:attr(data-letters2);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background-color:#000000;
+  vertical-align:middle;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  color:#ffffff;
   }
 
 .navbar{
@@ -60,4 +81,59 @@ body{
 }
 .dropdown-item{
 	color: #000000 !important;
+}
+.man-img{
+	width:7%;
+	position: absolute;
+	right: .4rem;
+	top: 0;
+	border-radius: 50%;
+
+}
+.h1-design{
+	color: #e31c79;
+	margin:0;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.62rem;
+	position: relative;
+}
+.h3-design{
+	font-family: 'Piedra', cursive;
+	font-size: 1.5rem;
+	color: #e31c79;
+	position: relative;
+}
+.left-img{
+	position: relative;
+	display: inline;
+	right: 18%;
+	padding-top: 5%;
+
+
+}   
+.right-img{
+	position: relative;
+	left: 18%;
+	padding-top: 5%;
+}
+.left2-img{
+	position: relative;
+	display: inline;
+	right: 25%;
+	padding-top:0;
+}
+.right2-img{
+	position: relative;
+	left: 22%;
+	padding-top:0;
+}
+.para-design{
+	position: relative;
+	display: inline-block;
+	width: 15%;
+	font-family: 'Sacramento', cursive;
+	font-size: 2rem;
+	padding-top: 2%;
+	color: #e31c79;
+	
 }
