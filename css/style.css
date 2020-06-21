@@ -1,6 +1,6 @@
 /*TAG DESIGN*/
 body{
-	background-color: #ffffff;
+	background-color: #f4f4f4;
 	font-size: 1rem;
 	color: #000000;
 	text-align: center;
@@ -19,10 +19,14 @@ span{
 	background-color: #ffffff;
 	text-align: center;
 	position: relative;
+	border-color: #000000;
+
 }
-.middle-container{
-	background-color: #ffffff;
+.border{
+	border-color: #000000
+
 }
+
 .hr-design{
     width: 5%;
     border-top: .5rem dotted;
@@ -111,7 +115,6 @@ span{
 	position: relative;
 }
 .left-img{
-	background-color: #e31c79;
 	width: 15%;
 	height: 15%;
 	position: relative;
@@ -123,7 +126,7 @@ span{
 
 }   
 .right-img{
-	background-color:#e31c79;
+
 	width: 20%;
 	height: 20%;
 	border-radius: 50%;
@@ -157,4 +160,14 @@ span{
 	padding-top: 4%;
 	color: #e31c79;
 	
+}
+.middle-container{
+	background-color: #f4f4f4;
+	text-align: center;
+	height: 500px;
+}
+.h1-design2{
+	font-family: 'Piedra', cursive;
+	color: #ffffff;
+
 }
